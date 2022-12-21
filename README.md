@@ -132,5 +132,9 @@ The game's idea wasn't inspired from a particular game, but rather it came to me
 ![from behind](https://user-images.githubusercontent.com/87432371/208773348-06620a5e-f52f-4ada-97f5-aad407ba3293.jpg)
 
 ![from the front](https://user-images.githubusercontent.com/87432371/208773357-a39b8339-62b4-4e65-a022-8946003f6305.jpg)
+ 
+### Video Presentation 🎥
+
+https://www.youtube.com/watch?v=6mUxIa6V9B0&ab_channel=AlexandruSasu
 
 </details>
