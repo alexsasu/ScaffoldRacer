@@ -61,7 +61,7 @@ void Sounds::attemptToPlayLoseLifeSound() {
     buzzerOnDuration = buzzerPlayerLoseLifeSound1OnDuration;
     tone(buzzerPin, buzzerFreq, buzzerOnDuration);
   }
-  delay(buzzerPlayerLoseLifeSound2OnDuration);
+  delay(buzzerPlayerLoseLifeSound1OnDuration);
   if (buzzerEnabled) {
     buzzerFreq = buzzerPlayerLoseLifeSound2Freq;
     buzzerOnDuration = buzzerPlayerLoseLifeSound2OnDuration;

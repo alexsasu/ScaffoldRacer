@@ -2,7 +2,7 @@
 
 ## About
 
-This repository presents a game - named ScaffoldRacer - developed in Arduino, as a project during the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest.
+Arduino project developed during the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest.
 
 ## Project Details 📄
 
@@ -14,9 +14,9 @@ The project features a game displayed on an 8x8 LED matrix, as well as a menu fo
 
 ### Game Details 🚧🏃‍♂️
 
-**Story:** You are playing as a parkour enjoyer, that loves nothing more than to partake in brisk, long, running sessions. As you stroll around the city, you find yourself near a construction site for a very tall building, and decide to put your skills to use by climbing the whole thing to the top. After reaching the top, you suddenly remember that you forgot to finish your project for the robotics course at your university, and so you decide to go and finish it, by hurrying back down and descending on some nearby scaffolds, while doing your daily running session. Be careful, though, there are construction props laid on the scaffolds, that will try to thwart your descent, or worse yet, be careful not to off the scaffolds!
+**Story:** You are playing as a parkour enjoyer, that loves nothing more than to partake in brisk, long, running sessions. As you stroll around the city, you find yourself near a construction site for a very tall building, and decide to put your skills to use by climbing the whole thing to the top. After reaching the top, you suddenly remember that you forgot to finish your project for the robotics course at your university, and so you decide to go and finish it, by hurrying back down and descending on some nearby scaffolds, while doing your daily running session. Be careful, though, there are construction props laid on the scaffolds, that will try to thwart your descent, or worse yet, be careful not to fall off the scaffolds!
 
-**Gameplay mechanics:** Move the joystick in any direction to determine your descent on a neverending stream of randomly generated platforms, that display different properties depending on the current difficulty of the game. The speed at which the platforms move, their lengths, and the distance between them, will make the player's run increasingly harder as the current difficulty of the game advances (Easy, Medium, Hard). The difficulty of the game rises as you accumulate more points. Point accumulation is done constantly, by progressing through the game. Obstacles will appear, only on the "Hard" difficulty. Avoid getting slowed down by obstacles placed on the scaffolds. Each time you start a new game, you begin with 3 lives. If you are taken above the matrix, by scaffolds or obstacles, or if you fall to the bottom of the matrix without landing on a scaffold or an obstacle, you lose a life. Once all lives are spent, or once the player presses the joystick mid-game, it's game over and you are taken on the LCD to the post-game info.
+**Gameplay mechanics:** Move the joystick in any direction to determine your descent on an endless stream of randomly generated platforms, that display different properties depending on the current difficulty of the game. The speed at which the platforms move, their lengths, and the distance between them, will make the player's run increasingly harder as the current difficulty of the game advances (Easy, Medium, Hard). The difficulty of the game rises as you accumulate more points. Point accumulation is done constantly, by progressing through the game. Obstacles will appear only on the "Hard" difficulty. Avoid getting slowed down by obstacles placed on the scaffolds. Each time you start a new game, you begin with 3 lives. If you are taken above the matrix, by scaffolds or obstacles, or if you fall to the bottom of the matrix without landing on a scaffold or an obstacle, you lose a life. Once all lives are spent, or once the player presses the joystick mid-game, it's game over and you are taken on the LCD to the post-game info.
 
 ### Menu Details 📃
 
@@ -36,7 +36,7 @@ The project features a game displayed on an 8x8 LED matrix, as well as a menu fo
 * Credits: displays the name of the game, and the name and GitHub profile link of the person that made the game
 
 ### Other Details 🎛
-* The buzzer attempts to generate sounds (when the sound is enabled ("ON") in the "Settings" sub-menu) in the following scenarios: the user utilizes the joystick to navigate the menu or interact with it, the player begins a new life, the player loses a life, the difficulty is increased during a game
+* The buzzer attempts to generate sounds (when the sound is enabled ("ON") in the "Settings" sub-menu) in the following scenarios: the user utilizes the joystick to navigate the menu or interact with it, the player begins a new life, the player loses a life, the difficulty increases during a game
 * The potentiometer can be used to modify the contrast of the LCD
 
 </details>
@@ -49,7 +49,7 @@ The game's idea wasn't inspired from a particular game, but rather it came to me
 
 ### Difficulties Encountered 😕
 * Making it so that the player's movement doesn't generate any bugs
-* Making it so that, after the player loses a life and respawns, the layout of the matrix is the same as the one when the player last stood on a solid surface, or a layout in which the player can continue their descent, without having their path blocked by an obstacle (impossible for them to overcome it, due to a game bug)
+* Making it so that after the player loses a life and respawns, the layout of the matrix is the same as the one when the player last stood on a solid surface, or a layout in which the player can continue their descent, without having their path blocked by an obstacle (impossible for them to overcome it, due to a game bug)
 * Generating obstacles on the platforms
 
 </details>
